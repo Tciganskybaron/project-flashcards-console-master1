@@ -2,7 +2,6 @@ const fs = require('fs');
 
 class Model {
   constructor() {
-
   }
 
   getFilesAllname(catalog) {
@@ -17,12 +16,6 @@ class Model {
       });
     });
   }
-
-  // returnStr(номер строки) {
-  //   const text = fs.readFileSync('${вводимый индекс темы}', 'utf-8');
-  //
-  //   }
 }
 
 module.exports = Model;
-// k;klerpgksepmgpkers
