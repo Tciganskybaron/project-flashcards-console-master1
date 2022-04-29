@@ -5,8 +5,8 @@ class Controller {
   }
 
   run() {
+    //...rfefgerfgerferf
     this.model.getFilesAllname('./topics').then((el) => console.log(el))
-    
     // Просим экземпляр класса модели прочитать папку со всеми темами и составить меню.
     // Попутно передаем метод контроллера this.printTopicsController,
     // так как нам нужно отправить сформинованное меню на вывод в экземпляр класса view
