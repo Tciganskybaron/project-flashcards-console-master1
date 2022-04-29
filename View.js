@@ -1,8 +1,8 @@
-const Controller = require("./Controller");
+const Controller = require('./Controller');
 
 class View {
   constructor() {
   }
 }
 
-module.exports = View
+module.exports = View;
