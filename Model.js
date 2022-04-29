@@ -1,8 +1,10 @@
-const fs = require("fs");
+const fs = require('fs');
+
 class Model {
   constructor() {
 
   }
+
   getFilesAllname(catalog) {
     return new Promise((resolve, reject) => {
       fs.readdir(catalog, (err, data) => {
@@ -15,7 +17,12 @@ class Model {
       });
     });
   }
+
+  // returnStr(номер строки) {
+  //   const text = fs.readFileSync('${вводимый индекс темы}', 'utf-8');
+  //
+  //   }
 }
 
-module.exports = Model
+module.exports = Model;
 // k;klerpgksepmgpkers
