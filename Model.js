@@ -18,4 +18,3 @@ class Model {
 }
 
 module.exports = Model
-// fkvgjosefjgvodsfjngvljndsflijvnbsdfijvnjsdfnvghrthrthrthrthrhrthrthrthrtyh
