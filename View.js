@@ -1,6 +1,7 @@
+const Controller = require("./Controller");
+
 class View {
   constructor() {
-
   }
 }
 
